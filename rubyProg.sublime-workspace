@@ -1,0 +1,581 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"err",
+				"error_fname"
+			],
+			[
+				"erro",
+				"error_gender"
+			],
+			[
+				"error",
+				"error_cpass"
+			],
+			[
+				"e",
+				"error_pass"
+			],
+			[
+				"error_",
+				"error_cpass"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"onc",
+				"onchange\tAttr"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"le",
+				"len"
+			],
+			[
+				"butt",
+				"button2"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"en",
+				"enter"
+			],
+			[
+				"myf",
+				"myform"
+			],
+			[
+				"pl",
+				"please"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"m",
+				"margin-left\tproperty"
+			],
+			[
+				"ons",
+				"onsubmit\tAttr"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text_color"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"image",
+				"image1"
+			],
+			[
+				"image-s",
+				"shape-image-threshold\tproperty"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"text-",
+				"text-shadow\tproperty"
+			],
+			[
+				"heig",
+				"height\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"button",
+				"button1"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			],
+			[
+				"it",
+				"initial\tfont-style"
+			],
+			[
+				"font-",
+				"font-style\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"mrgin",
+				"margin-top\tproperty"
+			],
+			[
+				"align",
+				"text-align\tproperty"
+			],
+			[
+				"height",
+				"max-height\tproperty"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#!/usr/bin/ruby\n# class Simple\n#     def hello\n#         puts \"hello world\"\n#     end\n# end\n# obj=Simple.new\n# obj.hello\n\n\n\n# class Class1\n#     def m1\n#         puts \"hello !!!!\"\n#     end\n# end\n# class Class2\n#     def m2\n#         puts \"how are you\"\n#     end\n# end\n# obj1 = Class1.new\n# obj2 = Class2.new\n# obj1.m1\n# obj2.m2\n# obj1.m1\n\n\n#  class Customer\n#   def init(id,name,addr)\n#         @cust_id=id\n#         @cust_name=name\n#         @cust_addr=addr\n#     end\n#   def display()\n#       puts \"custID => #@cust_id\"\n#       puts \"custNAme =>  #@cust_name\"\n#       puts \"custADDR => #@cust_addr\"\n#   end\n#   end\n#   cust1=Customer.new\n#   cust1.init(\"1\",\"tttt\",\"uhuiyut\")\n#   cust1.display()\n\n\n\n# $i = 0\n# $num = 5\n\n# while $i < $num  \n# do\n#   puts(\"Inside the loop i = #$i\" )\n#   $i +=1\n# end\n\n\n\n# $age=8\n# case $age\n# when 0 .. 2\n#     puts \"baby\"\n#     when 3 .. 6\n#         puts \"little baby\"\n#         when 7 .. 12\n#             puts \"child\"\n#             when 13 .. 18\n#                 puts \"youth\"\n#             else \n#                 puts \"adult\"\n#             end\n                \n                \n                \n                \n                \nclass Arrays\n    nums = Arrays.new(4,\"mac\")\n    puts \"#{nums}\"\nend\n\n\nss",
+			"file": "rubyProg.txt",
+			"file_size": 1236,
+			"file_write_time": 131903941537364439,
+			"settings":
+			{
+				"buffer_size": 1238,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sachin/Desktop/Amy-RubyProg"
+	],
+	"file_history":
+	[
+		"/home/sachin/work/practise/jquery/src/ajax.js",
+		"/home/sachin/work/practise/jquery/src/ajax/jsonp.js",
+		"/home/sachin/work/practise/jquery/src/ajax/load.js",
+		"/home/sachin/work/practise/jquery/src/ajax/parseXML.js",
+		"/home/sachin/work/practise/jquery/src/ajax/script.js",
+		"/home/sachin/work/practise/jquery/src/ajax/var/location.js",
+		"/home/sachin/work/practise/jquery/src/ajax/var/nonce.js",
+		"/home/sachin/work/practise/jquery/src/ajax/var/rquery.js",
+		"/home/sachin/work/practise/jquery/src/ajax/xhr.js",
+		"/home/sachin/work/practise/jquery/src/attributes.js",
+		"/home/sachin/work/practise/jquery/src/attributes/attr.js",
+		"/home/sachin/work/practise/jquery/src/attributes/classes.js",
+		"/home/sachin/work/practise/jquery/src/attributes/prop.js",
+		"/home/sachin/work/practise/jquery/src/attributes/support.js",
+		"/home/sachin/work/practise/jquery/src/attributes/val.js",
+		"/home/sachin/work/practise/jquery/src/callbacks.js",
+		"/home/sachin/work/practise/jquery/src/core.js",
+		"/home/sachin/work/practise/jquery/src/core/access.js",
+		"/home/sachin/work/practise/jquery/src/core/camelCase.js",
+		"/home/sachin/work/practise/jquery/src/core/DOMEval.js",
+		"/home/sachin/work/practise/jquery/src/core/init.js",
+		"/home/sachin/work/practise/jquery/src/core/isAttached.js",
+		"/home/sachin/work/practise/jquery/src/core/nodeName.js",
+		"/home/sachin/work/practise/jquery/src/core/parseHTML.js",
+		"/home/sachin/work/practise/jquery/src/core/ready-no-deferred.js",
+		"/home/sachin/work/practise/jquery/src/core/ready.js",
+		"/home/sachin/work/practise/jquery/src/core/readyException.js",
+		"/home/sachin/work/practise/jquery/src/core/stripAndCollapse.js",
+		"/home/sachin/work/practise/jquery/src/core/support.js",
+		"/home/sachin/work/practise/jquery/src/core/toType.js",
+		"/home/sachin/work/practise/jquery/src/core/var/rsingleTag.js",
+		"/home/sachin/work/practise/jquery/src/css.js",
+		"/home/sachin/work/practise/jquery/src/css/addGetHookIf.js",
+		"/home/sachin/work/practise/jquery/src/css/adjustCSS.js",
+		"/home/sachin/work/practise/jquery/src/css/curCSS.js",
+		"/home/sachin/work/practise/jquery/src/css/finalPropName.js",
+		"/home/sachin/work/practise/jquery/src/css/hiddenVisibleSelectors.js",
+		"/home/sachin/work/practise/jquery/src/css/showHide.js",
+		"/home/sachin/work/practise/jquery/src/css/support.js",
+		"/home/sachin/work/practise/jquery/src/css/var/cssExpand.js",
+		"/home/sachin/work/practise/jquery/src/css/var/getStyles.js",
+		"/home/sachin/work/practise/jquery/src/css/var/isHiddenWithinTree.js",
+		"/home/sachin/work/practise/jquery/src/css/var/rboxStyle.js",
+		"/home/sachin/work/practise/jquery/src/css/var/rnumnonpx.js",
+		"/home/sachin/work/practise/jquery/src/css/var/swap.js",
+		"/home/sachin/work/practise/jquery/src/data.js",
+		"/home/sachin/work/practise/jquery/src/data/Data.js",
+		"/home/sachin/work/practise/jquery/src/data/var/acceptData.js",
+		"/home/sachin/work/practise/jquery/src/data/var/dataPriv.js",
+		"/home/sachin/work/practise/jquery/src/data/var/dataUser.js",
+		"/home/sachin/work/practise/jquery/src/deferred.js",
+		"/home/sachin/work/practise/jquery/src/deferred/exceptionHook.js",
+		"/home/sachin/work/practise/jquery/src/deprecated.js",
+		"/home/sachin/work/practise/jquery/src/dimensions.js",
+		"/home/sachin/work/practise/jquery/src/effects.js",
+		"/home/sachin/work/practise/jquery/src/effects/animatedSelector.js",
+		"/home/sachin/work/practise/jquery/src/effects/Tween.js",
+		"/home/sachin/work/practise/jquery/src/event.js",
+		"/home/sachin/work/practise/jquery/src/event/ajax.js",
+		"/home/sachin/work/practise/jquery/src/event/alias.js",
+		"/home/sachin/work/practise/jquery/src/event/focusin.js",
+		"/home/sachin/work/practise/jquery/src/event/support.js",
+		"/home/sachin/work/practise/jquery/src/event/trigger.js",
+		"/home/sachin/work/practise/jquery/src/exports/amd.js",
+		"/home/sachin/work/practise/jquery/src/exports/global.js",
+		"/home/sachin/work/practise/jquery/src/jquery.js",
+		"/home/sachin/work/practise/jquery/src/manipulation.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/_evalUrl.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/buildFragment.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/getAll.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/setGlobalEval.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/support.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/var/rcheckableType.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/var/rscriptType.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/var/rtagName.js",
+		"/home/sachin/work/practise/jquery/src/manipulation/wrapMap.js",
+		"/home/sachin/work/practise/jquery/src/offset.js",
+		"/home/sachin/work/practise/jquery/src/queue.js",
+		"/home/sachin/work/practise/jquery/src/queue/delay.js",
+		"/home/sachin/work/practise/jquery/src/selector-native.js",
+		"/home/sachin/work/practise/jquery/src/selector-sizzle.js",
+		"/home/sachin/work/practise/jquery/src/selector.js",
+		"/home/sachin/work/practise/jquery/src/serialize.js",
+		"/home/sachin/work/practise/jquery/src/traversing.js",
+		"/home/sachin/work/practise/jquery/src/traversing/findFilter.js",
+		"/home/sachin/work/practise/jquery/src/traversing/var/dir.js",
+		"/home/sachin/work/practise/jquery/src/traversing/var/rneedsContext.js",
+		"/home/sachin/work/practise/jquery/src/traversing/var/siblings.js",
+		"/home/sachin/work/practise/jquery/src/var/arr.js",
+		"/home/sachin/work/practise/jquery/src/var/class2type.js",
+		"/home/sachin/work/practise/jquery/src/var/concat.js",
+		"/home/sachin/work/practise/jquery/src/var/document.js",
+		"/home/sachin/work/practise/jquery/src/var/documentElement.js",
+		"/home/sachin/work/practise/jquery/src/var/fnToString.js",
+		"/home/sachin/work/practise/jquery/src/var/getProto.js",
+		"/home/sachin/work/practise/jquery/src/var/hasOwn.js",
+		"/home/sachin/work/practise/jquery/src/var/indexOf.js",
+		"/home/sachin/work/practise/jquery/src/var/isFunction.js",
+		"/home/sachin/work/practise/jquery/src/var/isWindow.js",
+		"/home/sachin/work/practise/jquery/src/var/ObjectFunctionString.js",
+		"/home/sachin/work/practise/jquery/src/var/pnum.js",
+		"/home/sachin/work/practise/jquery/src/var/push.js",
+		"/home/sachin/work/practise/jquery/src/var/rcssNum.js",
+		"/home/sachin/work/practise/jquery/src/var/rnothtmlwhite.js",
+		"/home/sachin/work/practise/jquery/src/var/slice.js",
+		"/home/sachin/work/practise/jquery/src/var/support.js",
+		"/home/sachin/work/practise/jquery/src/var/toString.js",
+		"/home/sachin/work/practise/jquery/src/wrap.js",
+		"/home/sachin/work/practise/jquery/src/wrapper.js",
+		"/home/sachin/work/practise/jquery/test/data/ajax/onunload.html",
+		"/home/sachin/work/practise/jquery/test/data/ajax/unreleasedXHR.html",
+		"/home/sachin/work/practise/jquery/test/data/badcall.js",
+		"/home/sachin/work/practise/jquery/test/data/cleanScript.html",
+		"/home/sachin/work/practise/jquery/test/data/core/aliased.html",
+		"/home/sachin/work/practise/jquery/test/data/core/cc_on.html",
+		"/home/sachin/work/practise/jquery/test/data/core/dynamic_ready.html",
+		"/home/sachin/work/practise/jquery/test/data/core/onready.html",
+		"/home/sachin/work/practise/jquery/test/data/css/cssWidthBeforeDocReady.html",
+		"/home/sachin/work/practise/jquery/test/data/css/cssWidthBrowserZoom.html",
+		"/home/sachin/work/practise/jquery/test/data/data/dataAttrs.html",
+		"/home/sachin/work/practise/jquery/test/data/dimensions/documentLarge.html",
+		"/home/sachin/work/practise/jquery/test/data/event/focusElem.html",
+		"/home/sachin/work/practise/jquery/test/data/event/focusinCrossFrame.html",
+		"/home/sachin/work/practise/jquery/test/data/event/interactiveReady.html",
+		"/home/sachin/work/practise/jquery/test/data/event/onbeforeunload.html",
+		"/home/sachin/work/practise/jquery/test/data/event/promiseReady.html",
+		"/home/sachin/work/practise/jquery/test/data/event/syncReady.html",
+		"/home/sachin/work/practise/jquery/test/data/event/triggerunload.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rubyProg.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rubyProg.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
+				"submen",
+				"app/views/layouts/dependencies/_submenu.html.erb"
+			],
+			[
+				"subm",
+				"app/views/layouts/dependencies/_submenu.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
