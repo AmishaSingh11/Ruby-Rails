@@ -80,23 +80,87 @@
 
 
 
-class A	
-  def msg(str)
-  	str1=str
-  end
-end
+# class A	
+# 	$str1
+#   $char1
+#   def get_param(str)
+#   	$str1=str
+#   	puts "#{$str1}"
+#   	# del_char()
+#   	# puts "#{$char1}"
+#   end
+# end
 
-class A
-  def remove(char)
-	result=str1.gsub(char, ' ')
-  puts "#{result}"
- end
-end
-
- A.new.send(:msg,"asasa")
- A.new.send(:remove,"a")
+# class A
+#   def del_char(charc)
+#   	# get_param(str)
+#   	$char1=charc
+#   	# puts "#{str1}"
+#   	puts $char1
+# 	# result=str1.gsub(char, ' ')
+#   # puts "#{result}"
+#   end
+# end
+#  A.new.send(:get_param,"asasa")
+#  A.new.send(:del_char,"a")
 
 # class String
 # mystr=String.new("THIS IS TEST")
 # foo=mystr.gsub('TEST','rrr')
 # puts "#{foo}"
+
+
+
+=begin
+Example of adding a method to an object (prog to remove a character)
+ string="xyzser"
+  string=gets.chomp
+  def string.remove_char(char)
+   puts (self + ",string.gsub(char, ' ')")
+	 puts (self.gsub(char, ' '))
+  end
+    string.remove_char("x")
+   "protonshub".remove_char("o")
+
+---------2nd approach-------
+string="xyzser"
+def string.remove(char)
+puts (self.gsub(char, ' '))
+  end
+    string.remove("x")
+
+-----------3rd approach--------
+correct answer
+class String
+	def remove_char(char)
+		puts (self.gsub(char, ' '))
+  end
+end
+puts "protonshub".remove_char("o")
+
+
+=begin
+WAP to repeat array element
+class Array
+	def repeatation(num)
+		a=[1,2,3]
+		a2 = a * num
+		puts "#{a2}"
+	 end
+end
+a3=Array.new
+a3.repeatation(4)
+puts repeat(2)
+
+-------2nd approach---------
+class Array
+	def repeat(num)
+		 a=self * num
+		 puts a.to_s
+	 end
+end
+ puts [1,2].repeat(2)
+
+
+
+ 
